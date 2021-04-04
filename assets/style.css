@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 1;
+    margin: 7px;
+}
+
+
+body {
+    background-color: slategrey;
+}
+
+header{
+background-color: skyblue;
+padding-top: 15px;
+font-family:'Times New Roman', Times, serif ;
+text-align: center;
+
+}
+
+.intro {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+
+l
+.name {
+    font-size: 40px;
+}
+
+nav{
+    display: inline-block;
+    color: coral;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type:none;
+    color:white;
+    text-shadow: turquoise;
+}
+
+main img{
+    width:300px;
+    min-width: 200px;
+}
+
+section {
+    /* Turns this element into a flexbox */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 17px;
+    border-style: solid;
+    border: lightblue;
+    border-width: 5px;
+}
+  
+.projects {
+    display: flex;
+    /* Defines how to distribute the empty space between child elements */
+    justify-content: space-between;
+    padding: 10px;
+    background:darkgoldenrod;
+    color: wheat;
+}
+  
+article {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 0 70px 5;
+    padding: 10px;
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+}
+
+article img{
+    width: 100px;
+    min-width: 100px;
+}
+
+#projects1 img{
+    width:200px;
+    min-width: 200px;
+}
+    
